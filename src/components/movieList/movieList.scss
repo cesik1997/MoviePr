@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.pageContainer{
+    width: 1216px;
+    margin: auto;
+    font-size: 100%;
+    margin-top: 70px;
+}
+
+.pageContainer-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.filters{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 10px 0px 15px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.filters:hover{
+    color:rgb(115, 194, 221);
+}
+
+.fa-list-ul{
+    color: rgb(255, 255, 255);
+    height: 18px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.filters-container{
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    display: none;
+}
+
+.filter-content{
+    padding: 16px;
+    border-radius:6px;
+    background-color: #1f1b2e;
+}
+
+.filter-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.filter-genres, .filter-country, .filter-years{
+    width: 30%;
+    height: 60px;
+    padding-right: 6px;
+    padding-left: 6px;
+    background-color:#4c47625f;
+    color: white;
+    border-radius:5px;
+}
+
+.filter-genres-plank-text, .filter-country-plank-text, .filter-years-plank-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+}
+
+.plank-title{
+    font-weight: 600;
+    font-size: 17px;
+    height: 20px;
+    width: 235px;
+}
+.fa-angle-down{
+    margin-top: 4px;
+    height: 25px;
+}
+
+.filterDropdown-container{
+    position: absolute;
+    width: 280px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 0px 6px 6px 6px;
+    background-color: #312b45;
+    display: none;
+    z-index: 2;
+}
+
+.filterDropdown-container.open {
+    display: block;
+}
+
+.filters-container.open {
+    display: block;
+}
+
+
+.filterDropdown-list{
+    position: relative;
+    list-style: none;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.filterDropdown-item{
+    margin-top: 12px;
+    cursor: pointer;
+}
+.filterDropdown-item:hover{
+    color:lightblue;
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+.gallery__list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+}
+
+.moreButton{
+    height: 170px;
+    display: flex;
+    align-items:center;
+}
+
+button{
+    cursor: pointer;
+    width: 1140px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: 2px solid  #2c2a32;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+button:hover{
+    border: 1px solid white;
+}
+

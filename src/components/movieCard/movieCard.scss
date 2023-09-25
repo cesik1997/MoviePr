@@ -1,0 +1,89 @@
+img{
+    width: 210px;
+    height: 250px;
+}
+
+.card {
+    width: 210px;
+    height: 333px;
+    margin: 10px;
+    color: #ffffff;
+    border: 1px solid #2c2a32;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    padding: 11px;
+    align-items: center;
+ }
+
+.vote{
+    color:#198dcc;
+    font-size: 19px;
+    margin-right: 5px;
+
+}
+
+.overview{
+    transform: translateY(100%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.card:hover .overview {
+    transform: translateY(0%);
+    background-color: #100e1998;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.card:hover .overview-text{
+    font-size: 22px;
+    padding: 10px;
+}
+.card:hover .favorite-button{
+    opacity: 1;
+}
+
+.favorite-button{
+    position: absolute;
+    top: 175px;
+    left: 170px;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    height: 70px;
+    width: 40px;
+}
+
+.svg-inline--fa{
+
+    color:rgb(255, 255, 255);
+    padding: 3px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.svg-inline--fa:hover{
+    color: rgb(82, 180, 212);
+}
+
+.svg-inline--fa.fa-trash{
+    width: 23px;
+    height: 23px;
+}
+
+
+.svg-inline--fa:active{
+    transform: scale(0.9);
+    color: rgb(22, 114, 145);
+}
