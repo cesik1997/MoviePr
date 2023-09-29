@@ -5,7 +5,6 @@ import SearchPanel from "../searchPanel/SearchPanel";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
-import {ReactComponent as Logo} from "../images/se.svg"
 import "./header.scss";
 
 const element = <FontAwesomeIcon icon={faMagnifyingGlass} />

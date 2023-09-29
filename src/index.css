@@ -8,3 +8,10 @@
 .gallery{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+body{
+  background-image: url("./components/images/ss.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
